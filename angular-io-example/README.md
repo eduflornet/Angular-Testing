@@ -1,4 +1,19 @@
-# AngularIoExample
+# Angular testing
+
+Testing pipe -> strength.pipe.spec
+Testing service -> message.service.spec
+Testing component -> heroes.component.spec
+Testing shallow component  -> hero.component.shallow.spec
+
+
+## package.json - configure
+---
+"test": "ng test --source-map=false"
+---
+
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
 

@@ -4,9 +4,9 @@
   "description": "Testing Angular Application with Jasmine and Karma",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve -o",
     "build": "ng build --prod",
-    "test": "ng test",
+    "test": "ng test --source-map=false",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
