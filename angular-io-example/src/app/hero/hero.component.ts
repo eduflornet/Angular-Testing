@@ -10,7 +10,7 @@ export class HeroComponent {
   @Input() hero: Hero;
   @Output() delete = new EventEmitter();
 
-  onDeleteClick($event): void {
+  onDeleteClick($event: any): void {
     $event.stopPropagation();
     this.delete.next();
   }
